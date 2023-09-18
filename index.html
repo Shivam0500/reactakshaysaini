@@ -7,13 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="root">
-        <h1>Namaste React</h1>
-    </div>
+    <div id="root"></div>
 </body>
 <script>
    const heading=document.createElement("root");
    heading.innerHTML="Namaste Everyone";
+   // use append child 
+   const root =document.getElementById("root");
+   root.appendChild(heading);
+   
+
     
 </script>
 </html>
